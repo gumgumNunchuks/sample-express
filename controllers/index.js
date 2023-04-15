@@ -1,5 +1,7 @@
-const test = require('./test')
+const testrt = require('./test')
+const sumsumrt = require('./sumsum')
 
 module.exports = {
-    ...test
+    ...testrt,
+    ...sumsumrt
 }
